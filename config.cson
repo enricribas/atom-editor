@@ -1,31 +1,49 @@
 "*":
-  "exception-reporting":
-    userId: "053e646b-696b-a99a-192c-0791ed3b136e"
-  welcome:
-    showOnStartup: false
-  react: {}
-  tabs:
-    showIcons: true
-  "tree-view":
-    hideVcsIgnoredFiles: false
-    hideIgnoredNames: false
-    showOnRightSide: false
-    sortFoldersBeforeFiles: true
+  "atom-beautify":
+    _analyticsUserId: "cca52422-f5e6-43a0-a256-141a200014d1"
+  "autocomplete-plus":
+    minimumWordLength: 4
   core:
+    audioBeep: false
+    disabledPackages: [
+      "jshint"
+    ]
+    packagesWithKeymapsDisabled: [
+      "emmet"
+    ]
     themes: [
       "seti-ui"
       "one-dark-syntax"
     ]
-    audioBeep: false
   editor:
+    fontSize: 11
     invisibles: {}
-    showInvisibles: true
-    fontSize: 10
     showIndentGuide: true
-  "save-commands":
-    timeout: 5000
-    commands: []
-  "autocomplete-plus":
-    minimumWordLength: 4
+    showInvisibles: true
+    softWrap: true
+  emmet: {}
+  "exception-reporting":
+    userId: "053e646b-696b-a99a-192c-0791ed3b136e"
+  "expand-region": {}
   jshint:
     supportLintingJsx: true
+  "linter-rubocop":
+    command: "/Users/dev/.rvm/gems/ruby-2.2.2@influitive/bin/rubocop"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  react: {}
+  "save-commands":
+    commands: []
+    timeout: 5000
+  tabs:
+    showIcons: true
+    usePreviewTabs: true
+  "tree-view":
+    hideIgnoredNames: false
+    hideVcsIgnoredFiles: false
+    showOnRightSide: false
+    sortFoldersBeforeFiles: true
+  "vim-mode": {}
+  welcome:
+    showOnStartup: false

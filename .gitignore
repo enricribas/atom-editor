@@ -5,3 +5,6 @@ dev
 .node-gyp
 packages/
 .apm/
+blob-store
+
+

@@ -9,9 +9,6 @@
 #
 # Here's an example taken from Atom's built-in keymap:
 #
-# 'atom-text-editor':
-#   'enter': 'editor:newline'
-#
 # 'atom-workspace':
 #   'ctrl-shift-p': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
@@ -24,8 +21,15 @@
 # If you are unfamiliar with CSON, you can read more about it here:
 # https://github.com/bevry/cson#what-is-cson
 
-'atom-workspace':
-  'cmd-shift-space': 'expand-selection:expand'
-'atom-text-editor:not(mini).autocomplete-active':
+'atom-text-editor:not(mini)':
+  'cmd-shift-space': 'expand-region:expand'
   'ctrl-tab': 'core:move-up'
   'ctrl-shift-tab': 'core:move-down'
+  'alt-up': 'block-travel:move-up'
+  'alt-down': 'block-travel:move-down'
+  'alt-shift-up': 'block-travel:select-up'
+  'alt-shift-down': 'block-travel:select-down'
+  'ctrl-e': 'emmet:expand-abbreviation'
+  'ctrl-e': 'emmet:expand-abbreviation'
+'.vim-mode.command-mode':
+  'escape': 'core:cancel'
