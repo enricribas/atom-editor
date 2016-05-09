@@ -13,7 +13,7 @@
     ]
     themes: [
       "seti-ui"
-      "one-dark-syntax"
+      "atom-dark-syntax"
     ]
   editor:
     fontSize: 11
@@ -27,6 +27,9 @@
   "expand-region": {}
   jshint:
     supportLintingJsx: true
+  linter:
+    errorPanelHeight: 144
+  "linter-jshint": {}
   "linter-rubocop":
     command: "/Users/dev/.rvm/gems/ruby-2.2.2@influitive/bin/rubocop"
   "package-sync":

@@ -15,6 +15,7 @@ packages: [
   "rails-snippets"
   "rails-transporter"
   "react"
+  "redux-snippets"
   "rspec-snippets"
   "seti-ui"
   "sort-lines"

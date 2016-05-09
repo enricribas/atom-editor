@@ -30,6 +30,7 @@
   'alt-shift-up': 'block-travel:select-up'
   'alt-shift-down': 'block-travel:select-down'
   'ctrl-e': 'emmet:expand-abbreviation'
-  'ctrl-e': 'emmet:expand-abbreviation'
 '.vim-mode.command-mode':
   'escape': 'core:cancel'
+'atom-text-editor.vim-mode:not(.insert-mode)':
+  'space': 'command-palette:toggle'
